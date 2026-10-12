@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Xcode — build output
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode — per-user state (keep shared schemes & workspace data tracked)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Secrets / local config (keep out of version control)
+*.xcconfig.local
+Secrets.plist
+GoogleService-Info.plist
